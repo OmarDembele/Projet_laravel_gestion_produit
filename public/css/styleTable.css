@@ -1,0 +1,29 @@
+table
+{
+    width: 600px;
+    margin: auto;
+    border-collapse: separate;
+    background-color: bisque;
+}
+td, th 
+{
+    border: 1px solid rgb(10, 10, 11);
+    width: 8%;
+}
+tr:hover
+{
+    background-color: darkgray;
+}
+tr:nth-child(even)
+{
+    background-color: #cccccc;
+}
+tr:nth-child(odd)
+{
+    background-color: turquoise;
+}
+tr:nth-child(1)
+{
+    background-color: moccasin;
+}
+
